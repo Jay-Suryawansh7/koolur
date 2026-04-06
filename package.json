@@ -32,16 +32,30 @@
     "demo": "node examples/demo.mjs"
   },
   "keywords": [
+    "koolur",
     "color",
     "terminal",
     "chalk",
     "ansi",
     "console",
     "colors",
-    "secure"
+    "secure",
+    "npm-package",
+    "javascript",
+    "typescript",
+    "nodejs",
+    "utility"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jay-Suryawansh7/koolur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jay-Suryawansh7/koolur/issues"
+  },
+  "homepage": "https://github.com/Jay-Suryawansh7/koolur#readme",
   "files": ["dist", "examples"],
   "devDependencies": {
     "@types/jest": "^29.5.12",
