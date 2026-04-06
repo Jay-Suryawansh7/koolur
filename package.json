@@ -1,0 +1,50 @@
+{
+  "name": "color-unified",
+  "version": "0.1.0",
+  "description": "Unified secure color library with pluggable output backends - zero runtime dependencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./plugins/terminal": {
+      "import": "./dist/plugins/terminal.js",
+      "types": "./dist/plugins/terminal.d.ts"
+    },
+    "./plugins/browser": {
+      "import": "./dist/plugins/browser.js",
+      "types": "./dist/plugins/browser.d.ts"
+    },
+    "./plugins/json": {
+      "import": "./dist/plugins/json.js",
+      "types": "./dist/plugins/json.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && npm run integrity",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "integrity": "node scripts/generate-integrity.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "color",
+    "terminal",
+    "chalk",
+    "ansi",
+    "console",
+    "colors",
+    "secure"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^5.4.5"
+  }
+}
