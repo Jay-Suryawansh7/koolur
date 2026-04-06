@@ -1,6 +1,6 @@
 {
   "name": "koolur",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unified secure color library with pluggable output backends - zero runtime dependencies",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
