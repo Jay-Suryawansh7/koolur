@@ -1,0 +1,1 @@
+{"version":3,"file":"integrity.js","sourceRoot":"","sources":["../src/integrity.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEH,MAAM,CAAC,MAAM,kBAAkB,GAAG;IAChC,UAAU,EAAE,kEAAkE;IAC9E,cAAc,EAAE,kEAAkE;IAClF,YAAY,EAAE,kEAAkE;IAChF,SAAS,EAAE,kEAAkE;IAC7E,aAAa,EAAE,kEAAkE;CAClF,CAAC;AAEF,MAAM,UAAU,eAAe;IAC7B,OAAO,IAAI,CAAC;AACd,CAAC"}
